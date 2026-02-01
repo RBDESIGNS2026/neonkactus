@@ -1,1 +1,76 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE BASE */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #faf9f7;
+  color: #2e3440;
+  line-height: 1.6;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+/* HEADER */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin-bottom: 3rem;
+}
+
+/* MODULE LIST */
+.module-list {
+  list-style: none;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.module-list li {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.module-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+/* LINKS */
+.module-list a {
+  text-decoration: none;
+  color: #2e3440;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.module-list a:hover {
+  color: #6b9c8f; /* subtle cactus green */
+}
+
+/* FOOTER NOTE */
+.footer-note {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
 
