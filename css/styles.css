@@ -73,3 +73,22 @@ h1 {
   font-size: 0.9rem;
   color: #9ca3af;
 }
+
+/* TWO COLUMN LAYOUT */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* IMAGE COLUMN */
+.side-image img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+
+}
+
