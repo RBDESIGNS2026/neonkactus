@@ -74,6 +74,12 @@ body {
   color: #111827;
 }
 
+.header-left {
+  max-width: 500px;
+}
+
+
+
 /* MAIN */
 .container {
   max-width: 1200px;
@@ -104,3 +110,5 @@ body {
   font-size: 0.9rem;
   color: #9ca3af;
 }
+
+
